@@ -1,0 +1,54 @@
+
+<!DOCTYPE html> 
+<html lang="en-us"> 
+    <head>  
+        <meta charset="UTF-8" />  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">        
+        <!-- Link to the external CSS file -->
+        <link rel="stylesheet" href="./assets/css/style.css"> 
+
+        <!--Title of the Website/Main page-->
+        <title>Code Quiz</title> 
+    </head> 
+    <body>
+
+    <header>   
+        <nav class="navbar">          
+                <a class="nav-link" id = "navhighscorelink" >High Scores</a>
+                <span id="timer"></span>
+        </nav>
+    </header> 
+    <main>    
+        <br>
+        <br>
+        <div class="container" id="container">
+            <div class="card"> 
+                <div class="card-body">
+                    <h1 class="card-title" id="title">Coding Quiz Challenge</h1>
+                    <hr class="line">
+                    <div class="row">
+                        </div>
+                            <div id="mainContent">  
+                                <h4 class="text-center">
+                                    Try to answer the following Javascript fundamental questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!  
+                                </h4>
+                                <div class="text-center">
+                                    <button type="submit" id="startQuiz">Start Quiz</button>
+                                </div>
+                            </div>
+                            <div id = "quizContent"></div>
+                            <div id = "score"></div>
+                            <div id = "highscores"> </div>
+                        </div>
+                    </div>                                      
+                    <div id="answer">
+                         <hr class="line-2" style="display: none;">
+                    </div>    
+                </div>
+            </div>               
+        
+        </div>
+        <br>
+    <!-- End main -->
+    </main>
+    <script src="assets/js/script.js"></script>

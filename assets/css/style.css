@@ -1,0 +1,104 @@
+:root{
+    --blue: rgb(56, 110, 172);
+    --hoverBlue: rgb(115, 161, 213);
+    --hoverGreen: rgb(73, 206, 82);
+    }
+
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: grey;
+}
+
+#container{
+    margin : 20px auto;
+    background-color: white;
+    height: 50vh;
+    width : 70%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    /* position: relative; */
+    /* border: 4px solid green; */
+   
+}
+
+.card {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    /* border: 4px solid red; */
+    padding: 5%;
+
+}
+
+.card-body {
+    margin-top: 50px;
+    /* border: 4px solid blue; */
+}
+
+.line{
+    width: 100%;
+    margin-right: 10%;
+}
+
+.line-2 {
+    /* width: 70%; */
+}
+
+#answer {
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+#startQuiz{
+    font-size: 1.5em;
+    font-weight: bolder;
+    word-break: break-all;
+    width:30%;
+    height:15%;
+    border : 2px solid lightgrey;
+    text-align: center;
+    cursor: pointer;
+    /* position: absolute; */
+    left:300px;
+    top:50px;
+    color : lightgrey;
+    align-items: center;
+    margin-top: 3%;
+    justify-content: center;
+    display: flex;
+}
+
+#startQuiz:hover{
+    background-color: var(--hoverBlue);
+}
+
+.nav-link{
+    margin-left: 5%;
+    font-size: 1.5em;
+    font-weight: bolder;
+    word-break: break-all;
+    width:20%;
+    height:15%;
+    border : 2px solid lightgrey;
+    text-align: center;
+    cursor: pointer;
+    /* position: absolute; */
+    left:300px;
+    top:50px;
+    color : lightgrey;
+    align-items: center;
+    margin-top: 1%;
+    justify-content: center;
+    display: flex;
+}
+
+.nav-link:hover{
+    background-color: var(--hoverGreen);
+}
+
+#timer{
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-top: 15px;
+}
